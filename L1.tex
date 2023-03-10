@@ -1,0 +1,224 @@
+%\documentclass[options]{class}
+\documentclass[10pt,journal]{IEEEtran}
+
+%Paquete de Idioma
+\usepackage[spanish]{babel}
+
+%Codificación Alfabeto
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{amstext} 
+
+%Codificación de Fuente
+\usepackage[T1]{fontenc}
+
+%Estilo de Página Numeración superior
+%\pagestyle{headings}
+
+%Hiperlinks \href{url}{text}
+\usepackage[pdftex]{hyperref}
+
+\usepackage{graphicx}
+
+\begin{document}
+
+%Titulo
+\title{Naturaleza y propagación de la luz}
+
+%Autor
+\author{Fernando Dalai Aguilar Sánchez \\ Laboratorio de óptica, ESFM-IPN, Ciudad de México, México \\Febrero 28 de 2023}
+
+
+\maketitle{}  
+
+%Resumen
+\begin{abstract}
+Se presenta el desarrollo de un algoritmo bajo código fuente JavaScript para la solución de la ecuación 
+\end{abstract}  
+
+\section{Introducción}
+A la luz también se le puede denominar como radiación electromagnética visible; esto
+es, es aquella radiación que produce sensación visual en el ojo humano y corresponde a
+una porción muy angosta del espectro electromagnético, mejor conocida como la región
+visible del espectro.
+
+La energía electromagnética en una longitud de onda λ particular (en el vacío) tiene una
+frecuencia f asociada y una energía de fotón E. Por tanto, el espectro electromagnético
+puede ser expresado igualmente en cualquiera de esos términos. Se relacionan en las
+siguientes ecuaciones: 
+\begin{align}
+c = \lambda f \\
+E = \dfrac{h c}{\lambda}
+\end{align}
+donde $c = 299{,}792{,}458$ es la velocidad de la luz y h es la constante de Planck. 
+
+Por lo tanto, las ondas electromagnéticas de alta frecuencia tienen una longitud de onda
+corta y mucha energía mientras que las ondas de baja frecuencia tienen grandes
+longitudes de onda y poca energía.
+
+Por encima de la frecuencia de las radiaciones infrarrojas se encuentra lo que
+comúnmente llamamos luz. Es un tipo especial de radiación electromagnética que tiene
+una longitud de onda en el intervalo de 0,38 a 0,73 $\mu$m. Hasta hace relativamente poco
+tiempo la unidad usual para expresar las longitudes de onda era el Angstrom, Ǻ. Sin
+embargo, debido a que se ha fomentado el uso del Sistema Internacional de Unidades SI
+para expresar las unidades de las magnitudes físicas, las unidades que se emplean hoy
+en día son principalmente el micrómetro ($\mu$m) o el nanómetro (nm).
+
+\section{Metodología}
+
+
+\subsection{Experimento 1. Reflexión y refracción de la luz.}
+El Número de Froude relaciona la velocidad, los parámetros geométricos de la sección y los efectos gravitacionales. La profundidad crítica del flujo está definida como como la condición para la cual el Número de Froude (NF) es igual a 1, donde la energía específica es mínima. Sí el NF es menor a 1 se establece un flujo subcrítico. El flujo supercrítico se origina para NF mayores a 1.............
+
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Column 1 & Column 2 & Column 3 \\
+\hline
+1 & 17.1 & 7 \\
+\hline
+2 & 37.3 & 12.9 \\
+\hline
+3 & 57.3 & 19.4 \\
+\hline
+4 & 77.5 & 25.5 \\
+\hline
+5 & 97.5 & 31 \\
+\hline
+6 & 118.1 & 36 \\
+\hline
+7 & 137.9 & 40 \\
+\hline
+8 & 158.3 & 42 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Column 1 & Column 2 & Column 3 \\
+\hline
+1 & 18 & 6.6 \\
+\hline
+2 & 37.8 & 13.2 \\
+\hline
+3 & 57.8 & 19.8 \\
+\hline
+4 & 78 & 25.7 \\
+\hline
+5 & 98.1 & 31.2 \\
+\hline
+6 & 118.4 & 35.9 \\
+\hline
+7 & 138.5 & 39.9 \\
+\hline
+8 & 158.5 & 42.7 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Resultados}
+
+\begin{table}[ht]
+\caption{Parámetros calidad de malla} % title of Table
+\centering % used for centering table
+\begin{tabular}{c c c c c} % centered columns (5 columns)
+\hline\hline %inserts double horizontal lines
+msnm& \#Nodos&Aspect&Skewness&Orthogonal\\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+704.0 & 147,088 & 3.5266& 0.1241 & 0.9557\\
+706.9 & 144,345 & 4.2965& 0.1254 & 0.9697\\
+709.4 & 129,572 & 4.2442& 0.1285 & 0.9558\\
+712.0 & 127,812 & 4.1577& 0.1271 & 0.9523\\
+724.6 & 141,766 & 4.3370& 0.1479 & 0.9946\\[1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+
+
+Ejemplo gráfica:
+
+
+\begin{figure}[!ht]
+\begin {center}
+\includegraphics[width=0.4\textwidth]{Flujo_Critico.jpg}
+\caption{Energía específica canal circular. Fuente: Propia.}
+\end {center}
+\end{figure}
+
+
+
+ 
+\subsection{}
+$$
+\begin{tabular}{l l} 
+V[V]& I[A]  \\ \hline
+$0.87 \pm 0.03$  & $0.73 \pm 0.01$  \\ 
+$0.83 \pm 0.03$  & $0.65 \pm 0.01$  \\ 
+$0.60 \pm 0.03$  & $0.50 \pm 0.01$  \\ 
+$0.52 \pm 0.03$  & $0.42 \pm 0.01$  \\ 
+ 
+\end{tabular}$$ 
+
+
+
+\begin{figure}[!ht]
+\begin {center}
+\includegraphics[width=0.4\textwidth]{curva.jpg}
+\caption{Tubería circular, (solución gráfica). Fuente: Propia}
+\end {center}
+\end{figure}
+
+ 
+
+ 
+
+
+ 
+
+
+\begin{figure}[!ht]
+\begin {center}
+\includegraphics[width=0.4\textwidth]{Diagrama.jpg}
+\caption{Diagrama de flujo para el cálculo de la profundidad crítica (canal trapezoidal), Fuente: Propia.}
+\end {center}
+\end{figure}
+
+
+
+
+\section{Discusión y conclusiones}
+\begin{itemize}
+\item 
+
+El algoritmo desarrollado bajo código fuente de JavaScript para la aplicación “Sistema de Tuberías en Serie. Series Piping System”, demostró su capacidad de cálculo, para determinar el caudal bajo el modelo propuesto por Darcy-Weisbach para perdidas de carga y Colebrook-White para el coeficiente de fricción. La aceleración de la convergencia en el proceso iterativo se obtuvo a partir de un valor semilla para las pérdidas por fricción, el cual relaciona las longitudes de las tuberías del sistema y los diámetros.......
+
+\item 
+\end{itemize}
+
+
+
+
+
+
+\section{Bibliografía}
+
+
+Resnick, Halliday y Krane, (2002). Física. VOl I. México. Editorial Cecsa.
+
+
+Serway, R.A., Jewett, J.W. (2009). "Física: Para ciencia e ingeniería con Física Moderna", 7 Edicion. Vol.2 México. Cengage.
+
+
+W. Sears, MW Zemansky, HD Young y R. A. Freedman: "Física universitaria", 12 Edición. VOl 2. Addison-Wesley-Longman/Pearson Education.
+
+
+
+\end{document}
